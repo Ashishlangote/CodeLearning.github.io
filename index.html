@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeLearning</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold fs-2 mx-1"href="#">CodeLearning</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#login"
+                href="#"
+                >Login</a >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#learn">Start learning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Showcase -->
+    <section class="showcase p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between py-3">
+          <div>
+            <h1 class="fw-bold mb-5">
+              Join the Millions<br />
+              Learning to Code<br />
+              with CodeLearning
+            </h1>
+          </div>
+          <img
+            class="img-fluid  py-4 "
+            src="img/undraw_Online_learning_re_qw08.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Quiz -->
+    <section class="quiz p-5 text-center text-sm-start text-light">
+      <div class="container bg-primary p-5">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h2 class="fw-bold">
+              Not sure where<br />
+              to begin?
+            </h2>
+            <p class="fs-5">
+              No need to worry, we’ll help you make<br />
+              sense of it all
+            </p>
+            <button type="button" class="btn">
+              Take Our Quiz
+            </button>
+          </div>
+          <img
+            class="img-fluid py-4"
+            src="img/undraw_quiz_nlyh.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Learning -->
+    <section id="learn">
+      <div>
+        <div class="container-learn text-align-center p-5 mt-5">
+          <div class="text-center mb-5">
+            <h1 class="fw-bold">
+              Tell us <span class="text-success">why</span> you want<br />
+              to learn to code<br />
+
+              We’ll show you <span class="text-warning">what</span> <br />
+              to learn
+            </h1>
+          </div>
+          <div class="row g-4">
+            <div class="col-sm-4">
+              <div class="card text-light">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Web Development</h5>
+                  <p class="card-text">
+                    HTML/CSS<br />
+                    JAVASCRIPT<br />
+                    Master the languages of the web:<br />
+                    HTML, CSS, and JavaScript. This path<br />
+                    will prepare you to build basic websites<br />
+                    and then build interactive web apps.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-light">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">
+                    Programming and<br />
+                    Computer Science
+                  </h5>
+                  <p class="card-text">
+                    PYTHON, CMD LINE<br />
+                    Learn Python fundamentals, one of the<br />
+                    hottest and fastest growing <br />
+                    programming languages. This is a great<br />
+                    introduction to the world of code
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-light">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Data Science</h5>
+                  <p class="card-text">
+                    PYTHON, SQL<br />
+                    Learn SQL and Python and build <br />the skills you need to
+                    analyze data.<br />
+                    Great for anyone trying to use code to be<br />
+                    more data driven
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div>
+        <div class="container-take container-learn text-align-center p-5">
+          <div class="text-center">
+            <h1 class="fw-bold mb-3">
+              It’s time to start<br />
+              investing in yourself
+            </h1>
+            <p class="fs-3">
+              Because learning to code might be the easiest way to change your
+              career.
+            </p>
+            <button type="button" class="btn-get btn">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="pt-3 text-dark text-center">
+      <div class="container">
+        <p class="lead ">Copyright &copy; 2021 CodeLearning</p>
+      </div>
+    </footer>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="login"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-black" id="exampleModalLabel">
+              Login Form
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3>
+                <label class="form-label " >Email address</label >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn "
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

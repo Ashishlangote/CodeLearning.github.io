@@ -1,0 +1,64 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-learn {
+  background: #575a89;
+}
+.card {
+  background: none;
+  border: none;
+}
+.container-take {
+  background: #6c63ff;
+}
+.line {
+  height: 1%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.btn-get {
+  padding: 8px 12px;
+  outline: none;
+  border: 2px solid black;
+  background: none;
+  border-radius: 45px;
+}
+.btn-get:hover {
+  background-color: #000000;
+  color: white;
+  transition: 0.5s;
+}
+.navbar-toggler {
+  border: none;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.img-fluid {
+  width: 50%;
+}
+.btn {
+  border: 2px solid black;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 720px) {
+  .img-fluid {
+    width: 100%;
+  }
+  .lead {
+    font-size: initial;
+  }
+}
